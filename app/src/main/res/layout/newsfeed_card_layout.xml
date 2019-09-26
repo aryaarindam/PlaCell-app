@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newsfeedLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/headingNewsfeedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Cisco Internship Drive"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/jobTitleNewsfeedTextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#8BC34A"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:text="Job Title: SDE2"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dateNewsfeedTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#039BE5"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Last Date: 27th Jun 19"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/storyNewsfeedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="17dp"
+            android:textColor="@color/white"
+            android:text="Knowledge Stack: HTML,CSS,Javascript,PHP,MongoDb"
+            android:textSize="15dp" />
+
+        <RelativeLayout
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/typeNewsfeedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:textColor="@android:color/primary_text_light_nodisable"
+                android:background="@drawable/submit_button_round"
+                android:backgroundTint="@color/white"
+                android:gravity="center_vertical"
+                android:text="Internship" />
+
+            <TextView
+                android:id="@+id/yearTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:textColor="@android:color/primary_text_light_nodisable"
+                android:background="@drawable/submit_button_round"
+                android:backgroundTint="@color/white"
+                android:gravity="center_vertical"
+                android:text="3rd Year" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

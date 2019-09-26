@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/containerOngoing"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginLeft="9dp"
+    android:layout_marginRight="9dp"
+    android:background="@drawable/rounded_recycler"
+    android:padding="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_image_white"
+            app:srcCompat="@drawable/ic_story" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/companyOngoingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="25dp"
+            android:layout_marginLeft="20dp"
+            android:text="BANK"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cgpaOngoingTextView"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:text="Cutt-off CGPA:8.5"
+            android:textColor="@android:color/primary_text_light" />
+    </LinearLayout>
+</LinearLayout>

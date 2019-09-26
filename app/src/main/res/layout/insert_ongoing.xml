@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".InsertOngoing">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Add Ongoing"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:background="@drawable/desc_border"
+        android:id="@+id/companySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center" />
+
+    <EditText
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/cutoffEditText"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Cutoff"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:background="@drawable/desc_border"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/descEditText"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:hint="Decription" />
+
+    <Button
+        android:id="@+id/addOngoingButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:background="@drawable/submit_button_round"
+        android:text="Submit" />
+
+</LinearLayout>

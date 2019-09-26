@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/previousLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="7dp"
+    android:background="@color/white"
+    android:layout_marginBottom="1dp"
+    android:paddingBottom="7dp">
+
+    <TextView
+        android:id="@+id/companyPreviousTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amazon Web Services"
+        android:textColor="@android:color/primary_text_light_nodisable"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/avgPackageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/primary_text_light_nodisable"
+        android:text="Average Package : 6 lacs/p.a" />
+
+</LinearLayout>

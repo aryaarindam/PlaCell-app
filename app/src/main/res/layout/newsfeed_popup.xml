@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/txt_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:text="X"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:background="@drawable/cross"/>
+
+    <TextView
+        android:id="@+id/newsfeedComp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Company Name"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:id="@+id/newsfeedJobTitle"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:padding="4dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="Job Title"
+            android:gravity="center"
+            android:background="#8BC34A"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/newsfeedDate"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:padding="4dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="Last Date"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/newsfeedYear"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:padding="4dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="Year"
+            android:gravity="center"
+            android:background="#039BE5"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/newsfeedStory"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:text="AKjshdakd KJHKJsdhaksjdh adasjdhdakjshdaksjdhkasjhdkajshdkajshdkjashdkjahsdkjhaskdjhaskdjhas
+                k/n/nn//n/n\n\n\n\n\n\n\n\n\n\n\nscscdas\n\n\n\n\adfasdn\n\n\asdasdasdn\n\n\n\n\n\ajshdkajshdkaj"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

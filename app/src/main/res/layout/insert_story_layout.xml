@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:padding="10dp"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Story"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:paddingBottom="5dp"/>
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <EditText
+                android:id="@+id/storyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name:"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"/>
+
+            <EditText
+                android:id="@+id/storyCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Company's name:"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"/>
+            <EditText
+                android:id="@+id/storyPackage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Package:"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"/>
+
+            <EditText
+                android:id="@+id/story"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:hint="Add Story"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:background="@drawable/desc_border"/>
+            <Button
+                android:id="@+id/storySubmit"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/submit_button_round"
+                android:text="SUBMIT"
+                />
+        </LinearLayout>
+</LinearLayout>
