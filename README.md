@@ -1,5 +1,6 @@
 # PlaCell-app
 An app to facilitate news sharing between a Placement Cell and students.
+My contribution is to manage Layouts and XML file.
 ### Screenshots
 <table>
   <tbody>
